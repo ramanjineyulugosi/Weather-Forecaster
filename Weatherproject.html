@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Weatherproject.css">
+</head>
+<body>
+    <div class="weatherApp">
+        <div class="title">
+            <h1>WeatherApp</h1>
+        </div>
+        <div class="nav"> 
+            <input id="cityValue" type="text" placeholder="Enter a city name">
+            <button id="btn" onclick="search()" onmouseover="eHover(this)"><img src="Assets/search.png" alt=""></button>
+        </div>
+        <div class="maincontainer">
+            <div class="weatherDiv">
+                <div class="weatherInfo">
+                    <h1 id="cityName">CityName</h1>
+                    <h2 id="countryName">Country</h2>
+                    <img id="icon" height="60" width="60" src="Assets/clear.png" alt="clear">
+                    <h2><span id="temp">0</span><span> °C</span></h2>
+                   <div  class="maindiv">
+                     <div id="container1" class="humi">
+                     <img height="40" width="30" src="Assets/humidity_drops_water_weather-64.webp" alt="">   
+                     <h3>Humidity</h3>
+                     <h3><span id="humidity">0</span><span> %</span></h3></div>
+                     <div id="container2" class="humi">
+                        <img height="40" width="30" src="Assets/weather-windy-64.webp" alt="">   
+                        <h3>wind</h3>
+                        <h3><span id="windSpeed">0</span><span> kmph</span></h3></div>
+                        <div id="container3" class="humi">
+                            <img height="40" width="30" src="Assets/air_pressure.png" alt="">   
+                            <h3>Air pressure</h3>
+                            <h3><span id="airPressure">0</span><span> hpa</span></h3></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <script src="Weatherproject.js">    </script>
+    
+</body>
+</html>

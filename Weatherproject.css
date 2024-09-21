@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.weatherApp{
+    background-image: url('https://wallpapercave.com/wp/yRzA3uZ.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    text-align: center;
+    padding: 15px 0px;
+}
+.title h1{
+    color: rgba(255, 60, 0, 0.972);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+h2{
+    font-size: 48px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+input{
+    height: 35px;
+    width: 250px;
+    border: none;
+    background-color: transparent;
+    border-bottom:1px solid white;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;  
+}
+button{
+    height: 40px;
+    width: 40px;
+    /* background-color: rgba(255, 0, 255, 0.328); */
+    border-radius: 50px;
+    margin: 0px 10px;
+    cursor: pointer;
+} 
+.maincontainer{
+    display: flex;
+    justify-content: center;
+}
+.weatherInfo{
+    height: 450px;
+    width: 400px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    border: 1px solid gold;
+    box-shadow: 0px 0px 5px greenyellow;
+    text-align: center;
+    line-height: 70px;
+}
+.weatherInfo h2,h1{
+    color: white;
+}
+#temp{
+    font-size: 40px;
+}
+
+h3{
+    color: white;
+    /* line-height: 18px; */
+}
+.humi{
+    line-height: 22px;
+}
+.maindiv{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#container1{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid pink;
+    box-shadow: 0px 0px 5px pink;
+}
+#container2{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid pink;
+    box-shadow: 0px 0px 5px pink;
+}
+#container3{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid pink;
+    box-shadow: 0px 0px 5px pink;
+}
+#cityValue{
+    box-shadow: 0px 0px 5px red;
+}
